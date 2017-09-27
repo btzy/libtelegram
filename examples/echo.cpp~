@@ -6,7 +6,7 @@
 
 auto main()->int {
   
-  std::string token;         // in practice you would probably read this from config file or database
+  std::string const token;         // in practice you would probably read this from config file or database
   {
     std::ifstream in("echo_telegram_token.txt");
     in>>token;
